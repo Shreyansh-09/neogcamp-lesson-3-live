@@ -17,13 +17,13 @@ hr {
 
 /* container */
 .container {
-    padding: 0rem 1rem;
+    padding: 0rem 0.5rem;
 }
 
 .container-center {
     max-width: 600px;
     margin: auto;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 /* links */
@@ -36,13 +36,16 @@ hr {
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
+    padding: 0.64rem;
     color: white;
+    margin: 1rem 0.5rem;
 }
 
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    margin: 1rem 0.5rem;
 }
 
 /* lists */
@@ -84,8 +87,8 @@ hr {
 
 /* header */
 .hero {
-    padding: 2rem;
-    padding-top: 5rem;
+    padding: 1rem;
+    padding-top: 2rem;
 }
 
 .hero .hero-img {
